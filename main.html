@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>main</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <style type="text/css">
+body {
+  font-family: sans-serif;
+}
+.list {
+  list-style: none;
+  padding: 0;
+}
+details {
+  transition: height 1s;
+}
+details:not([open]) {
+  height: 40px;
+}
+details[open] {
+  height: 280px;
+}
+
+details > summary {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  border-top: 1px solid #ddd;
+  background: #f4f4f4;
+  cursor: pointer;
+  display: block;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+div > strong { color: red; }
+ 
+    </style>
+
+  </head>
+
+  <body>
+    <ul class="list">
+      <li>
+        <details>
+          <summary class="desc">
+            팀 소개
+          </summary>
+          <div>
+            <p><strong>팀명</strong> : 십이간지 (12조)</p>
+            <p><strong>copycat 사이트명</strong> : 예술의 전당 <a href="https://www.sac.or.kr/site/main/home">(https://www.sac.or.kr/site/main/home)</a></p>
+            <p><strong>사이트를 선택한 이유</strong> : <br>
+            - 코로나로 인해 자유롭게 즐기지 못한 문화생활을 느껴보고 싶어 예술의 전당 사이트를 선택하게 되었다.<br>
+            - 행사소개 이미지가 하나씩 자동으로 넘어가는 부분이 심심하지 않고 좋아보였다.<br>
+            - 도전해보고 싶은 기능들이 사이트에 많이 있었다.
+          </div>
+        </details>
+      </li>
+      <li>
+        <details>
+          <summary class="desc">
+            팀 구성
+          </summary>
+          <div>
+            <p>데이터사이언스학과 / 2021111748 / 한규림</p>
+            <p>데이터사이언스학과 / 2021111744 / 최다예</p>
+            <p>소프트웨어융합학과 / 2021111390 / 박주원</p>
+            <p>소프트웨어융합학과 / 2021111413 / 한정희</p>
+          </div>
+        </details>
+      </li>
+      <li>
+        <details>
+          <summary class="desc">
+            업무 분담
+          </summary>
+          <div>
+            <p><strong>박주원</strong> : page4, 시작 페이지 코드 작성
+            <p><strong>최다예</strong> : page1 - Main floor1 영역, page2 코드 작성</p>
+            <p><strong>한규림</strong> : page3 코드 작성, 메뉴 코드 작성</p>
+            <p><strong>한정희</strong> : page1 - main header, main floor2, main floor3, footer 영역 코드 작성</p>
+
+          </div>
+        </details>
+      </li>
+      <li>
+        <details>
+          <summary class="desc">
+            주의사항
+          </summary>
+          <div>
+            <p>본 사이트는 Chrome에 최적화되어 있습니다.</p>
+            <hr>
+            <p><strong>page2</strong> : page1 왼쪽 상단 메뉴 클릭 -> '공간·대관' -> '공간소개' -> '공연장' 클릭</p>
+            <p><strong>page3</strong> : page1 왼쪽 상단 메뉴 클릭 -> '아카데미' - '수강신청' 클릭</p>
+            <p><strong>page4</strong> : page1 왼쪽 상단 메뉴 클릭 -> '이용·공감·참여' 클릭</p>
+            <hr><strong>*page2, page3에서 뒤로가기를 통해 page1으로 넘어가야 합니다.</strong>
+          </div>
+        </details>
+      </li>
+      <li>
+        <details>
+          <summary class="desc">
+            사이트 URL 주소 연결
+          </summary>
+          <div>
+             <a href="page1/예술의전당.html">예술의 전당</a>
+          </div>
+        </details>
+      </li>
+    </ul>
+  </body>
+</html>

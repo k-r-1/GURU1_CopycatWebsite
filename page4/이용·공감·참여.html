@@ -1,0 +1,2123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>오시는 길·주차안내 | 이용안내 | 이용·공감·참여 | 예술의전당</title>
+
+<script type="text/javascript">
+
+    
+        function show_layer(div_name){
+
+ 
+
+document.all.div_01.style.display="none";
+
+document.all.div_02.style.display="none";
+
+document.all.div_03.style.display="none";
+
+document.all.div_04.style.display="none"; // 메뉴 숫자에 따라 늘려주세요
+
+ 
+
+switch(div_name)
+
+{
+
+case '1':
+
+document.all.div_01.style.display="";
+
+break;
+
+case '2':
+
+document.all.div_02.style.display="";
+
+break;
+
+case '3':
+
+document.all.div_03.style.display="";
+
+break;
+
+case '4':
+
+document.all.div_04.style.display="";
+
+break;
+
+}
+
+}
+
+
+
+</script>
+
+<style type="text/css">
+
+/*========== 상단 부분 ==========*/
+
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 15px;
+    font-family: "Noto Sans KR",sans-serif;
+    color: #555;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+#wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+div {
+    display: block;
+}
+
+#header {
+    /*position: fixed;*/
+    left: 0;
+    top: 0;
+    background: #41414c;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 99998;
+}
+
+
+.width-auto {
+    margin: 0 auto;
+    padding: 0 70px;
+}
+
+
+.header-floor1 {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    padding: 28px 0;
+}
+
+.header-floor1 > .all-menu {
+    width: 31px;
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    left: 0;
+}
+
+a {
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+li, p, span, strong, a {
+    font-size: inherit;
+    color: inherit;
+    font-family: inherit;
+}
+
+/*a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+*/
+
+img {
+    border: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+input, select, img {
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.header-floor1 > .logo {
+    padding: 0;
+    text-align: center;
+}
+
+.header-floor1 > .logo img {
+    width: 150px;
+    margin-left: 1px;
+}
+
+.header-floor1 > .member-btn {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    margin-top: -13.5px;
+    right: 0;
+}
+
+.header-floor1 > .member-btn a.btn.login-in, .header-floor1 > .member-btn2 a.btn.login-in {
+    background: #03c75a;
+}
+
+.header-floor1 > .member-btn a.btn, .header-floor1 > .member-btn2 a.btn {
+    background: #646277;
+    border-radius: 35px;
+    height: 35px;
+    padding: 5px 15px;
+    text-align: center;
+    line-height: 25px;
+    height: 25px;
+    width: 75px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.join-btn {
+    background: url(../images/sub/join-btn.gif) no-repeat left 15px center #ed1839;
+    padding: 5px 15px 5px 45px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.header-floor1 > .member-btn select, .header-floor1 > .member-btn2 select {
+    margin-right: 10px;
+    border-radius: 35px;
+    height: 35px;
+    padding: 5px 15px;
+    background: url(media/hearder-select-bg.gif) no-repeat right 10px center #41414c !important;
+    word-wrap: break-word;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    color: #fff;
+    font-family: 'NanumSquare_acR';
+}
+
+select {
+    width: 100px;
+    height: 34px;
+    border: 1px solid #c1c1c1;
+}
+
+/*select:not(:-internal-list-box) {
+    overflow: visible !important;
+}*/
+
+/*select {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    cursor: default;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    border-radius: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+*/
+
+script {
+    display: none;
+}
+
+.header-floor1 > .member-btn > a.search-btn, .header-floor1 > .member-btn2 > a.search-btn {
+    display: inline-block;
+}
+
+.header-floor1 > .member-btn a.schedule-btn, .header-floor1 > .member-btn a.sitemap-btn, .header-floor1 > .member-btn2 a.schedule-btn, .header-floor1 > .member-btn2 a.sitemap-btn {
+    margin-left: 10px;
+}
+
+/*========== 상단 아래 부분 ==========*/
+
+#contents.warp {
+    width: calc(100% - 80px);
+    margin: 0 auto;
+    padding: 0px 40px 70px 40px;
+    background: #41414c;
+}
+
+#contents {
+    min-height: 500px;
+    padding-top: 106px;
+    overflow: hidden;
+}
+
+.cwa-top.bg-box.style2 {
+    text-align: center;
+}
+
+.cwa-top.bg6 {
+    background: url(media/sub-top-bg6.jpg) no-repeat center top;
+    background-size: cover;
+}
+
+.cwa-top.bg-box {
+    height: auto;
+    min-height: auto;
+    padding: 0;
+}
+
+.cwa-top {
+    padding: 48px 0 0;
+    min-height: 496px;
+    background: url(media/cwa-top_bg.gif) no-repeat center top;
+    background-size: cover !important;
+}
+
+.cwa-top.bg-box .sub-top-bg {
+    width: 98%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 30px 0 30px 0;
+}
+
+.cwa-top.bg-box .sub-top-bg > h4.tit {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 100;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.cwa-top.bg-box .sub-top-bg > h3.tit {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.cwa-con {
+    overflow: hidden;
+    min-height: 600px;
+    position: relative;
+    background: #fff;
+}
+
+.cwac-menu {
+    border-bottom: 1px solid #e5e5e5;
+    box-shadow: 0px 2px 6px #e5e5e5;
+}
+
+#contents.warp .area {
+    width: 98%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    position: relative;
+    padding: 0 0 0 30px;
+    box-sizing: border-box;
+}
+
+
+/*.cwac-menu .area {
+    position: relative;
+    padding: 0 230px 0 70px;
+    box-sizing: border-box;
+}*/
+
+.cwac-menu .area > a.home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+}
+
+.cw-sub-menu {
+    float: left;
+    position: relative;
+    display: table;
+    height: 70px;
+    width: 33%;
+    max-width: 260px;
+    z-index: 50;
+}
+
+.cw-sub-menu > a {
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 20px;
+    position: relative;
+    border-right: 1px solid #e5e5e5;
+    padding: 0 55px 0 20px;
+    background: url(media/cwac-menu_icon02.png) no-repeat right 20px center;
+    font-size: 19px;
+    color: #333;
+    font-weight: bold;
+}
+
+.cw-sub-menu > a:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    left: 20px;
+    bottom: 0;
+    height: 1px;
+    background: #000;
+    transition: ease-in .5s;
+}
+
+.cw-sub-menu > ul {
+    z-index: 10;
+    position: absolute;
+    display: none;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #000;
+    border-top: 0;
+    width: calc(100% - 42px);
+    top: 100%;
+    left: 0;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    /*margin-block-start: 1em;*/
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+.cw-sub-menu > ul li:first-child {
+    margin-top: 0;
+}
+
+.cw-sub-menu > ul li {
+    margin-top: 10px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+.cw-sub-menu > ul li a {
+    font-size: 17px;
+    color: #989898;
+    display: block;
+}
+
+.cwac-menu .area > div.right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.cwac-menu .right p {
+    float: right;
+    border-right: 1px solid #e5e5e5;
+}
+
+p {
+    font-weight: inherit;
+}
+
+.cwac-menu .right p a {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-left: 1px solid #e5e5e5;
+}
+
+.cwac-menu .right a {
+    float: left;
+}
+
+.sns-APP {
+    display: none;
+    position: absolute;
+    bottom: -70px;
+    right: 0;
+    z-index: 99;
+    /* width: 123px; */
+    background: #fff;
+    padding: 12px 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #555;
+    min-width: 123px;
+}
+
+.sns-APP::before {
+    position: absolute;
+    top: -7px;
+    right: 29px;
+    width: 9px;
+    height: 7px;
+    background: url(media/sns_bftop.png);
+    content: "";
+}
+
+.sns-APP::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.sns-APP > a {
+    float: left;
+    margin: 2px 5px;
+}
+
+#contents.warp .cwac-menu-media > div.area {
+    width: 100%;
+}
+
+.cwac-menu-media p {
+    font-size: 15px;
+    display: inline-block;
+    color: #333;
+}
+
+/*.cwac-menu-media > div > a {
+    display: inline-block;
+    float: right;
+}*/
+
+.cwa-content {
+    padding: 0px 0 120px;
+}
+
+.news-title {
+    position: relative;
+    color: #535353;
+    font-size: 35px;
+    line-height: 35px;
+    padding: 5px 0 20px 22px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #535353;
+}
+
+.news-title:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: #ed1a3b;
+    content: "";
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.cwa-tab {
+    padding: 0 0 1px 1px;
+    margin-bottom: 30px;
+}
+
+.mgt70 {
+    margin-top: 70px !important;
+}
+
+.cwa-tab:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.back-title {
+    margin: -80px 0 50px;
+}
+
+.back-title > ul {
+    margin-top: 35px;
+}
+.back-title > ul > li.add-box {
+    margin-top: 10px;
+    padding: 15px 30px;
+    background: #f9f6f6;
+    font-size: 0;
+}
+
+.back-title > ul > li {
+    font-size: 18px;
+    color: #999;
+    line-height: 26px;
+}
+
+.text-sty3 {
+    padding: 15px 200px 15px 0px;
+    position: relative;
+}
+
+.text-sty3 .tbk {
+    margin-bottom: 14px;
+}
+
+.tbk {
+    display: table;
+}
+
+.text-sty3 .tbk .fth {
+    position: relative;
+    width: 108px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #2442b1;
+    line-height: 24px;
+    padding-left: 8px;
+}
+
+.tbk > .fth {
+    display: table-cell;
+    white-space: nowrap;
+    vertical-align: top;
+    padding-right: 4px;
+}
+
+strong {
+    font-weight: 500;
+}
+
+.text-sty3 .tbk .ftd {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.text-sty3 > .abso-btn {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -53px;
+}
+
+.text-sty3 > .abso-btn > a.bg1 {
+    background: #fff url(media/Dec05_bg1.gif) no-repeat 16px center;
+}
+
+.text-sty3 > .abso-btn > a:first-child {
+    margin-top: 0;
+}
+
+.text-sty3 > .abso-btn > a {
+    display: block;
+    width: 200px;
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: -1px;
+    padding-left: 58px;
+    margin: 14px 0 0;
+    box-sizing: border-box;
+}
+
+.btn2 {
+    display: inline-block;
+    background: #fff;
+    color: #231f20;
+    font-size: 15px;
+    text-align: center;
+    min-width: 80px;
+    height: 46px;
+    line-height: 46px;
+    padding: 0 10px;
+    margin: 5px 0;
+    border: 1px solid #333;
+}
+
+.text-sty3 > .abso-btn > a.bg2 {
+    background: #fff url(media/Dec05_bg2.gif) no-repeat 16px center;
+}
+
+
+.os_mac.root_daum_roughmap, .os_mac.root_daum_roughmap button, .os_mac.root_daum_roughmap input, .os_mac.root_daum_roughmap select, .os_mac.root_daum_roughmap td, .os_mac.root_daum_roughmap textarea, .os_mac.root_daum_roughmap th {
+    font-family: AppleSDGothicNeo-Regular,dotum,sans-serif;
+    letter-spacing: 0;
+}
+
+.root_daum_roughmap_landing {
+    overflow: hidden;
+    margin: 0;
+    background: transparent;
+}
+
+.root_daum_roughmap {
+    position: relative;
+    width: 550px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.root_daum_roughmap, .root_daum_roughmap button, .root_daum_roughmap input, .root_daum_roughmap select, .root_daum_roughmap td, .root_daum_roughmap textarea, .root_daum_roughmap th {
+    font-size: 12px;
+    line-height: 1.5;
+    font-family: Malgun Gothic,dotum,sans-serif;
+    color: #333;
+    letter-spacing: -1px;
+}
+
+.root_daum_roughmap {
+    text-align: left;
+}
+
+.root_daum_roughmap .wrap_map {
+    position: relative;
+    height: 300px;
+}
+
+.root_daum_roughmap button, .root_daum_roughmap div, .root_daum_roughmap form, .root_daum_roughmap h1, .root_daum_roughmap h2, .root_daum_roughmap h3, .root_daum_roughmap h4, .root_daum_roughmap h5, .root_daum_roughmap h6, .root_daum_roughmap input, .root_daum_roughmap legend, .root_daum_roughmap textarea, .root_daum_roughmap ul, .root_daum_roughmap ul li {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    background: transparent;
+}
+
+.root_daum_roughmap .map {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.root_daum_roughmap .border1 {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    border: 1px solid #000;
+    border-bottom: 0 none;
+    border-radius: 2px 2px 0 0;
+}
+
+.root_daum_roughmap .map_border {
+    position: absolute;
+    z-index: 2;
+    opacity: .1;
+    filter: alpha(opacity="10");
+}
+
+.root_daum_roughmap_landing .border2 {
+    display: none;
+}
+
+.root_daum_roughmap .border2 {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    border: 1px solid #000;
+    border-top: 0 none;
+    border-radius: 0 0 2px 2px;
+}
+
+.root_daum_roughmap .map_border {
+    position: absolute;
+    z-index: 2;
+    opacity: .1;
+    filter: alpha(opacity="10");
+}
+
+.root_daum_roughmap_landing .border3, .root_daum_roughmap_landing .border4 {
+    bottom: 0;
+}
+
+.root_daum_roughmap .border3 {
+    top: 2px;
+    bottom: 2px;
+    left: 0;
+    width: 1px;
+    background-color: #000;
+}
+
+.root_daum_roughmap .border4 {
+    top: 2px;
+    bottom: 2px;
+    right: 0;
+    width: 1px;
+    background-color: #000;
+}
+
+.root_daum_roughmap .map_border {
+    position: absolute;
+    z-index: 2;
+    opacity: .1;
+    filter: alpha(opacity="10");
+}
+
+.root_daum_roughmap .wrap_btn_zoom {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 8px;
+    z-index: 20;
+    height: 104px;
+    margin: auto;
+}
+
+.root_daum_roughmap .wrap_btn_zoom, .root_daum_roughmap .wrap_btn_zoom .img_zoom {
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    background: url(//t1.daumcdn.net/localimg/localimages/07/2018/pc/detail/img_zoom.png) no-repeat;
+    text-indent: -9999px;
+}
+
+.root_daum_roughmap .wrap_btn_zoom .btn_zoom_in {
+    padding-bottom: 0;
+    background-position: 0 0;
+}
+
+.root_daum_roughmap .wrap_btn_zoom button {
+    display: block;
+    padding: 2px;
+    outline: none;
+}
+
+.root_daum_roughmap .hide_text {
+    text-indent: -9999px;
+}
+
+.root_daum_roughmap button {
+    border: 0 none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.root_daum_roughmap button, .root_daum_roughmap input, .root_daum_roughmap select, .root_daum_roughmap textarea {
+    vertical-align: middle;
+}
+
+button {
+    appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    /*background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));*/
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    /*border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));*/
+    border-image: initial;
+}
+
+.root_daum_roughmap .wrap_btn_zoom .btn_zoom_in .img_zoom {
+    background-position: -80px -2px;
+}
+
+.root_daum_roughmap .wrap_btn_zoom .btn_zoom_out .img_zoom {
+    background-position: -80px -33px;
+}
+
+.root_daum_roughmap .wrap_btn_zoom button .img_zoom {
+    width: 30px;
+    height: 30px;
+}
+
+.root_daum_roughmap .wrap_btn_zoom .btn_zoom_reset {
+    margin-top: 4px;
+    background-position: 0 -70px;
+}
+
+.root_daum_roughmap .wrap_btn_zoom .btn_zoom_reset .img_zoom {
+    background-position: -80px -71px;
+}
+
+
+
+.root_daum_roughmap .wrap_controllers {
+    overflow: hidden;
+    padding: 7px 11px;
+    border: 1px solid #dfdfdf;
+    border-color: rgba(0,0,0,.1);
+    border-radius: 0 0 2px 2px;
+    background-color: #f9f9f9;
+}
+
+.root_daum_roughmap .wrap_btn_zoom .btn_zoom_out {
+    background-position: 0 -31px;
+}
+
+
+.root_daum_roughmap .wrap_controllers .tit_controllers {
+    float: left;
+}
+
+.root_daum_roughmap a:active, .root_daum_roughmap a:link, .root_daum_roughmap a:visited {
+    color: #333;
+    text-decoration: none;
+}
+
+.os_mac.root_daum_roughmap .wrap_controllers .wrap_btn_roadview {
+    top: 0;
+    font-size: 12px;
+}
+
+.root_daum_roughmap .wrap_controllers .wrap_btn_roadview {
+    float: right;
+    position: relative;
+    top: 1px;
+    font-size: 11px;
+}
+
+.root_daum_roughmap .wrap_controllers .tit_controllers img {
+    display: block;
+    width: 72px;
+    height: 16px;
+}
+
+.root_daum_roughmap fieldset, .root_daum_roughmap img {
+    border: 0 none;
+}
+
+
+.tit-div-c1 {
+    text-align: center;
+}
+
+.mgt50 {
+    margin-top: 50px !important;
+}
+
+.tit-div-c1 p {
+    font-size: 30px;
+    line-height: 38px;
+}
+
+.red-color {
+    color: #ed1a3b !important;
+}
+
+.cwa-tab {
+    padding: 0 0 1px 1px;
+    margin-bottom: 30px;
+}
+
+.mgt70 {
+    margin-top: 70px !important;
+}
+
+.cwa-tab:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.cwa-tab > li {
+    float: left;
+    display: table;
+    width: calc(100% / 3);
+    height: 66px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.cwa-tab > li {
+    float: left;
+    display: table;
+    width: calc(100% / 3);
+    height: 66px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/*.cwa-tab > li.on > a {
+    font-weight: bold;
+    color: #222;
+}*/
+
+.cwa-tab > li > a {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 15px;
+    color: #8b8b8b;
+    line-height: 20px;
+    padding: 5px 8px;
+}
+
+.cwa-tab > li > * {
+    position: relative;
+    z-index: 10;
+}
+
+/*.cwa-tab > li.on::before {
+    z-index: 10;
+    border: 1px solid #222;
+}*/
+
+.cwa-tab > li::before {
+    position: absolute;
+    top: 0;
+    left: -1px;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+    border: 1px solid #e5e5e5;
+    content: "";
+}
+
+.cwa-tab-list > .ctl-sub.on {
+    display: block;
+}
+
+.tab-list-cont {
+    display: table;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.tab-list-cont > dt {
+    width: 220px;
+    padding-right: 20px;
+}
+
+.tab-list-cont > * {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.tab-list-cont * {
+    box-sizing: border-box;
+}
+
+.sub-tit2 {
+    padding-top: 10px;
+    position: relative;
+    font-size: 24px;
+    color: #333333;
+    font-weight: 500;
+}
+
+.sub-tit2:after {
+    content: "";
+    display: block;
+    height: 7px;
+    width: 40px;
+    background: #ed1839;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+dt {
+    display: block;
+}
+
+.cwa-tab-list > .ctl-sub {
+    display: none;
+}
+
+
+.tab-list-cont > dd {
+    padding: 50px 0;
+    border-top: 2px solid #e6e6e6;
+}
+
+dd {
+    display: block;
+    margin-inline-start: 40px;
+}
+
+.txt-R {
+    text-align: right;
+}
+
+.btn2.big {
+    min-width: 180px;
+}
+
+
+.text-Tbox.bdt {
+    border-top: 1px solid #535353;
+}
+
+.text-Tbox {
+    position: relative;
+    text-align: left;
+    padding: 20px 0 25px 0;
+}
+
+.text-Tbox:before {
+    content: '';
+    height: 1px;
+    width: 23%;
+    background: #dedede;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.text-Tbox:after {
+    content: '';
+    height: 1px;
+    width: 73%;
+    background: #dedede;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.text-Tbox .left-T {
+    width: 23%;
+    float: left;
+}
+
+.text-Tbox .p-tit {
+    font-weight: bold;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 34px;
+}
+
+.pink-color {
+    color: #ff8d8d !important;
+}
+
+.tab-list-cont * {
+    box-sizing: border-box;
+}
+
+p {
+    display: block;
+    /*margin-block-start: 1em;*/
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.text-s-a1 {
+    margin-bottom: 15px;
+}
+
+.text-s-a1 > span {
+    color: #ffffff;
+    background: #d2d2d2;
+    font-size: 12px;
+    line-height: 0;
+    padding: 8px 5px 9px 5px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.green-color {
+    color: #37b42d !important;
+}
+
+.text-Tbox .right-T {
+    width: 73%;
+    float: right;
+}
+
+dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.tab-list-cont + .tab-list-cont {
+    margin-top: 0 !important;
+}
+
+
+.tit-div-c2 {
+    text-align: left;
+    margin-bottom: 28px;
+    margin-top: 13px;
+}
+
+.tit-div-c2 p {
+    font-size: 28px;
+    line-height: 37px;
+}
+
+.tit-div-c2 span.f02 {
+    font-size: 24px;
+    line-height: 37px;
+}
+
+.titC2 {
+    background: url(media/t_sub_img10.gif) no-repeat left 5px;
+    font-size: 18px;
+    padding-left: 27px;
+    margin-bottom: 16px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.txtC-style01 {
+    text-align: left;
+}
+
+.txtC-style01 li {
+    text-indent: -12px;
+    padding-left: 12px;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.seqPage-title-img {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+.seqPage-title-img .left-p {
+    float: left;
+    width: 45%;
+}
+
+.seqPage-title-img > div > img {
+    width: 100%;
+}
+
+.seqPage-title-img .right-p {
+    float: right;
+    width: 50%;
+}
+
+.acad-table {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+}
+
+.mgt10 {
+    margin-top: 10px !important;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+
+table {
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+
+table caption {
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -9999px;
+    left: -9999px;
+    text-indent: -999em;
+}
+
+caption {
+    display: table-caption;
+    text-align: -webkit-center;
+}
+
+colgroup {
+    display: table-column-group;
+}
+
+col {
+    display: table-column;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.acad-table th:first-child, .acad-table td:first-child {
+    border-left: 1px solid #dedede;
+}
+
+.acad-table th {
+    background: #f9f9f9;
+    color: #333;
+    font-size: 17px;
+}
+
+.acad-table th, .acad-table td {
+    color: #878787;
+    font-size: 15px;
+    padding: 10px 5px;
+    height: 60px;
+    text-align: center;
+    border-bottom: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+    box-sizing: border-box;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.tab-list-cont + .tab-list-cont {
+    margin-top: 0 !important;
+}
+
+.tab-list-cont > dt {
+    width: 220px;
+    padding-right: 20px;
+}
+
+.tab-list-cont > dd > p {
+    color: #231f20;
+    font-size: 17px;
+}
+
+.f-g2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 55px;
+}
+
+.mgb0 {
+    margin-bottom: 0 !important;
+}
+
+.menu li:hover ul {
+     display:block;
+     color:red;
+}
+
+/*========== 하단 부분 ==========*/
+
+#footer .footer-floor1 {background: #1d2335; padding:25px; }
+.footer-floor1 .link-box a:nth-child(1) {padding-left: 0;}
+.footer-floor1 .link-box a{color: #bebec1; font-size: 15px; padding: 0 10px; position: relative;}
+.footer-floor1 .link-box a:nth-child(1):after {display:  none;}
+.footer-floor1 .link-box a:after {content: ""; display: block; position: absolute; height: 10px; width: 2px; background: #3d4252; top: 50%; left: 0; margin-top: -5px;}
+.footer-floor1 .link-box a{text-decoration:none;}
+.footer-floor1 > .width-box {max-width: 1280px; width: 100%; margin: 0 auto;}
+.footer-floor1 .link-box2 {float: right;}
+.footer-floor1 .link-box2 a {margin: 0 10px;}
+.footer-floor1 .link-box {float: left;}
+.max-width:{1280; width:100%; margin:0 auto;}
+
+#footer .footer-floor2 {background: #131111; padding: 15px 25px; text-align: left;}
+: root {--swiper-navigation-size: 44px;}
+: root {--swiper-theme-color: #007aff;}
+.footer-floor2 > .width-box > .txt-box {padding-left: 40px;}
+.footer-floor2 > .width-box > .logo {width: 158px;}
+.footer-floor2 > .width-box > * {display: table-cell; vertical-align: middle;}
+.footer-floor2 > .width-box {display: table;}
+.footer-floor2 > .width-box {max-width: 1280px; width: 100%; margin: 0 auto;}
+.footer-floor2 > .width-box > .txt-box1 p:nth-of-type(1),
+.footer-floor2 > .width-box > .txt-box1 p+p {margin-top: 5px;}
+.footer-floor2 > .width-box > .txt-box p {color: #747780;font-size: 14px;}
+.footer-floor2 > .width-box > .txt-box p {font-weight: inherit;}
+.footer-floor2 > .width-box > .txt-box p b {color: #b8b8b8;font-size: 14px; font-weight: 600; padding-right: 5px;}
+
+</style>
+
+
+</head>
+
+<body>
+    <div id="warp" >
+        <div id="header">
+            <div class="width-auto">
+                <div class="header-floor1">
+                    <div class="all-menu">
+                        <img src="media/menu-btn.gif" alt="전체메뉴"></div>
+                    <div class="logo">
+                        <img src="media/logo.png" alt="예술의전당 로고"; align="center"></div>
+                    <div class="member-btn">
+                        <a href="https://www.sac.or.kr/site/main/membership/login"id="btn-login-logout" class="btn login-in">로그인</a>
+                        <a href="https://www.sac.or.kr/site/main/membership/member_step" id="btn-login-logout" class="btn join-btn">회원가입</a>
+                        <select id="language" name="uri" title="언어" onchange="locationSite(this.value);">
+                            <option value="/site/main/home">KOR</option>
+                            <option value="/site/eng/home">ENG</option>
+                        </select>
+
+                        <script>
+                            function locationSite(val) {
+                                location.href=val;
+                                return false;
+                            }
+                        </script>
+
+                        <a href="#n" class="search-btn" title="검색하기">
+                            <img src="media/search-btn.gif" alt="검색아이콘"></a>
+                            <a href="https://www.sac.or.kr/site/main/program/schedule" class="schedule-btn" title="전체일정(달력)">
+                                <img src="media/schedule-btn.gif" art="전체일정(달력)"></a>
+                            <a href="https://www.sac.or.kr/site/main/sitemap/sitemap" class="sitemap-btn" title="사이트맵">
+                                <img src="media/sitemap-btn.gif" alt="사이트맵아이콘"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="gnb" style="top: 0px; left: -500px; height: 727px;">
+                        <div class="gnb-header width-auto">
+                            <div class="header-floor1">
+                                <div class="member-box">
+                                    <p class="mob-logo"><img src="media/logo.png" alt="예술의전당 로고"></p>
+                                </div>
+                                <div class="close-btn">
+                                    <a href="#n">
+                                        <img src="media/close-btn.png" alt="닫기">닫기</a></div>
+                                <div class="logo">
+                                    <img src="media/logo.png" alt="예술의전당 로고"></a></div>
+                                <div class="member-btn2">
+                                    <a href="https://www.sac.or.kr/site/main/membership/login"id="btn-login-logout" id="btn-login-logout" class="btn login-in">로그인</a>
+                                    <a href="https://www.sac.or.kr/site/main/membership/member_step" id="btn-login-logout" id="btn-login-logout" class="btn join-btn">회원가입</a>
+                                    <select id="language" name="uri" title="언어" onchange="locationSite(this.value);">
+                                        <option value="https://www.sac.or.kr/site/main/home">KOR</option>
+                                        <option value="https://www.sac.or.kr/site/eng/home">ENG</option>
+                                    </select>
+                                    <a href="https://www.sac.or.kr/site/main/program/schedule" class="schedule-btn" title="전체일정(달력)">
+                                        <img src="media/schedule-btn.gif" alt="전체일정(달력)"></a>
+                                    <a href="https://www.sac.or.kr/site/main/sitemap/sitemap" class="sitemap-btn" class="sitemap-btn" title="사이트맵보기">
+                                        <img src="media/sitemap-btn.gif" alt="사이트맵"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <nav>
+                                <ul class="deaph1"><li><a href="/site/main/program/schedule">공연·전시</a><ul class="deaph2" style="display: none;"><li><a href="/site/main/program/schedule">전체일정(달력)</a></li><li><a href="/site/main/show/show_list">진행/예정 프로그램</a></li><li><a href="/site/main/board/plan/list">SAC기획 공연·전시</a></li><li><a href="/site/main/show/show_list_package">패키지</a></li><li><a href="/site/main/ticketopen/ticketopen_list">티켓오픈공지</a></li><li><a href="/site/main/sacdeal/sacdeal">싹(SAC)딜</a></li><li><a href="/site/main/show/show_list_ticket">당일할인티켓</a></li><li><a href="/site/main/content/reservationPurchase">예매·취소 안내</a></li></ul></li><li><a href="/site/main/content/spaceGuideMap">공간·대관</a><ul class="deaph2" style="display: none;"><li><a href="/site/main/content/spaceGuideMap">공간소개</a><ul class="deaph3" style="display: none;"><li><a href="/site/main/content/spaceGuideMap">공간안내</a></li><li><a href="/site/main/content/performingPlaceMain">공연장</a></li><li><a href="/site/main/content/exhibitionHallMain">전시장</a></li><li><a href="/site/main/content/musicSquare">야외공간</a></li><li><a href="/site/main/content/prSpace">홍보관(@700)</a></li><li><a href="/cybertour/index.html">사이버투어</a></li></ul></li><li><a href="/site/main/content/operaRentalNotice">공간별 대관안내</a><ul class="deaph3" style="display: none;"><li><a href="/site/main/content/operaRentalNotice">오페라하우스</a></li><li><a href="/site/main/content/musicHallRentalNotice">음악당</a></li><li><a href="/site/main/content/shinsegaeSquareGuide">신세계스퀘어 야외무대</a></li><li><a href="/site/main/content/museumRentalNotice">미술관ㆍ박물관</a></li><li><a href="/site/main/content/eventSpaceRentalForm">기타 행사공간 및 촬영장소</a></li></ul></li><li><a href="/site/main/content/ticketGuide">입장권 운영안내</a><ul class="deaph3" style="display: none;"><li><a href="/site/main/content/ticketGuide">입장권 운영안내</a></li><li><a href="/site/main/content/ticketPlaceOpera">공간별 특이사항 및 좌석 안내</a></li><li><a href="/site/main/content/ticketMembership">공연·전시 홍보 서비스 안내</a></li><li><a href="/site/main/content/bannerReq">홈페이지 배너 신청</a></li></ul></li></ul></li><li><a href="/site/main/academy/academy_main">아카데미</a><ul class="deaph2" style="display: none;"><li><a href="/site/main/academy/academy_main">아카데미 안내</a><ul class="deaph3" style="display: none;"><li><a href="/site/main/academy/academy_main">아카데미메인</a></li><li><a href="/site/main/academy/2/academy_view">인문ㆍ감상</a></li><li><a href="/site/main/academy/21/academy_view">미술실기</a></li><li><a href="/site/main/academy/22/academy_view">서화실기</a></li><li><a href="/site/main/academy/26/academy_view">어린이</a></li><li><a href="/site/main/academy/24/academy_view">음악영재</a></li></ul></li><li><a href="/site/main/academy/academy_app_list">수강신청</a></li><li><a href="/site/main/board/academy/list">아카데미 공지사항</a></li><li><a href="/site/main/board/academyfaq/list">아카데미 FAQ</a></li><li><a href="/site/main/academy/academy_audition_list">오디션신청</a></li><li><a href="/site/main/mypage/myLecture">나의강좌</a></li></ul></li><li><a href="/site/main/welcome/welcome">이용·공감·참여</a><ul class="deaph2" style="display: none;"><li><a href="/site/main/welcome/welcome">이용안내</a><ul class="deaph3" style="display: none;"><li><a href="/site/main/welcome/welcome">오시는 길·주차안내</a></li><li><a href="/site/main/content/performFacilities">편의서비스</a></li><li><a href="/site/main/content/food">입점매장</a></li><li><a href="/site/main/content/viewGuide">관람예절</a></li><li><a href="/site/main/content/useGuide">장애인·국가유공자</a></li><li><a href="/site/main/board/sacnews/list">뉴스·소식</a></li><li><a href="/site/main/content/servicep">고객센터</a></li></ul></li><li><a href="/site/main/review/review_01">공감</a><ul class="deaph3" style="display: none;"><li><a href="/site/main/review/review_01">관람평</a></li><li><a href="/site/main/sacwebzine/sacwebzine">웹진/매거진</a></li></ul></li><li><a href="/site/main/board/event/list">참여</a><ul class="deaph3" style="display: none;"><li><a href="/site/main/board/event/list">이벤트</a></li><li><a href="/site/main/pzfountain/pzfountain">세계음악분수(선곡표)</a></li><li><a href="/site/main/sactour/sactour">SAC 투어</a></li><li><a href="/site/main/free/list">무료리허설 관람</a></li></ul></li></ul></li><li><a href="/site/main/membership/member_step">회원서비스</a><ul class="deaph2" style="display: none;"><li><a href="/site/main/membership/member_step">회원가입</a></li><li><a href="/site/main/membership/login">로그인</a></li><li><a href="/site/main/membership/findId">아이디 찾기</a></li><li><a href="/site/main/membership/findPw">패스워드 찾기</a></li><li><a href="/site/main/benefits/benefits">서비스혜택</a></li></ul></li><li><a href="/site/main/org/main">기관소개</a><ul class="deaph2" style="display: none;"><li><a href="/site/main/org/main">기관소개 메인</a></li><li><a href="/site/main/content/greeting">예술의전당 소개</a><ul class="deaph3" style="display: none;"><li><a href="/site/main/content/greeting">인사말</a></li><li><a href="/site/main/content/history2010">역사</a></li><li><a href="/site/main/content/goal">운영이념</a></li><li><a href="/site/main/content/chart">조직</a></li><li><a href="/site/main/content/ciIntro">CI소개</a></li><li><a href="/site/main/content/resideMoveIn">협력기관</a></li><li><a href="http://www.p-sac.or.kr/">후원회</a></li></ul></li><li><a href="/site/main/sacOnScreen/sacOnScreen">특별사업</a><ul class="deaph3" style="display: none;"><li><a href="/site/main/sacOnScreen/sacOnScreen">SAC ON SCREEN</a></li><li><a href="/site/main/content/concertHallDonation">객석기부</a></li><li><a href="/site/main/content/bizIntro">문화햇살사업</a></li></ul></li><li><a href="/site/main/content/informationOpenGuide">정보공개</a><ul class="deaph3" style="display: none;"><li><a href="/site/main/content/informationOpenGuide">정보공개안내</a></li><li><a href="/site/main/publicInfo/list">사전정보공표</a></li><li><a href="/site/main/content/openPublicData">공공데이터 개방</a></li><li><a href="/site/main/tree/list">경영공시</a></li><li><a href="/site/main/business/businessRealName">사업실명제</a></li><li><a href="/site/main/report/report">운영보고서</a></li></ul></li></ul></li></ul>
+            </nav> -->
+                                
+
+
+
+
+    <div id="contents" class="warp">        
+        <div class="cwa-top bg-box style2 bg6" style="background:url(media/오시는길배너.jpg) no-repeat center top; background-size: cover;">
+            <div class="sub-top-bg">
+                <h4 class="tit">&nbsp;</h4>
+                <h3 class="tit">이용·공감·참여</h3>
+            </div>
+        </div>
+        <div class="cwa-con">
+            <div class="cwac-menu">
+                <div class="area clearfix">
+                    <a href="#n" class="home">
+                        <img src="media/cwac-menu_icon01.png" alt="홈으로">
+                    </a>
+
+                    <!-- script -->
+
+                    <a href="/" class="home"><img src="media/cwac-menu_icon01.png" alt="홈으로">
+                    </a>
+
+                    <div class="menu" style="height:0px">
+        <ul>
+            <li style="background:url(img/logo.png);"> </li>
+            <li> <div class="cw-sub-menu">
+                        <a href="#non" class>
+                            이용·공감·참여
+                        </a>
+            <ul class="link_list">
+                <li><a href="/site/main/program/schedule">공연·전시</a></li>
+                <li><a href="/site/main/content/spaceGuideMap">공간·대관</a></li>
+                <li><a href="/site/main/academy/academy_main">아카데미</a></li>
+                <li><a href="/site/main/welcome/welcome">이용·공감·참여</a></li>
+                <li><a href="/site/main/membership/member_step">회원서비스</a></li>
+                <li><a href="/site/main/org/main">기관소개</a></li>
+                <li><a href="/site/main/mypage/myTicket">마이페이지</a></li>
+                <li> <a href="/site/main/sitemap/sitemap">이용안내</a></li>
+            </ul>
+            </li>
+            <li><div class="cw-sub-menu">
+                        <a href="#non">이용안내
+                        </a>
+            <ul class="link_list">
+                <li> <a href="/site/main/welcome/welcome" class="on">이용안내
+                                </a></li>
+                <li><a href="/site/main/review/review_01" class="">공감
+                                </a></li>
+                <li><a href="/site/main/board/event/list" class="">참여
+                                </a></li>
+            </ul>
+            </li>
+            <li><div class="cw-sub-menu">
+                        <a href="#non">오시는 길·주차안내
+                        </a>
+            <ul class="link_list">
+                <li><a href="/site/main/welcome/welcome" class="on">오시는 길·주차안내</a></li>
+                <li><a href="/site/main/content/performFacilities" class="">편의서비스</a></li>
+                <li><a href="/site/main/content/food" class="">입점매장</a></li>
+                <li><a href="/site/main/content/viewGuide" class="">관람예절</a></li>
+                <li><a href="/site/main/content/useGuide" class="">장애인·국가유공자</a></li>
+                <li><a href="/site/main/board/sacnews/list" class="">뉴스·소식</a></li>
+                <li><a href="/site/main/content/servicep" class="">고객센터</a></li>
+            </ul>
+                    </div>
+
+                    <script type="text/javascript">
+                        
+                        function content_print(){
+                            
+                            var initBody = document.body.innerHTML;
+                            window.onbeforeprint = function(){
+                                $(".schedule-table td span.schedule_data").css('width','100px');
+                                $(".schedule-table td span.schedule_data").css('font-size','12px');
+                                $(".schedule-table td").css('padding','5px 0px 15px');
+                                
+                                document.body.innerHTML = $(".cwa-content").html();
+                            }
+                            window.onafterprint = function(){
+                                $(".schedule-table td span.schedule_data").css('width','130px');
+                                $(".schedule-table td span.schedule_data").css('font-size','13px');
+                                $(".schedule-table td").css('padding','5px 5px 20px');
+                                document.body.innerHTML = initBody;
+                            }
+                            window.print();    
+                        }   
+
+                        
+                    </script>
+
+                    <div class="right clearfix">
+                        <p class="clearfix">
+                            <a href="javascript:;" onclick="content_print();">
+                                <img src="media/cwac-menu_icon03.png" alt="프린트">
+                            </a>
+                            <a href="#n" class="sns-APP-open">
+                                <img src="media/cwac-menu_icon04.png" alt="공유">
+                            </a>
+                        </p>
+                        <div class="sns-APP">
+                            <a href="javascript:;" id="fbLink"><img src="media/sns_APP1.gif" alt="페이스북 아이콘"></a>
+                            <a href="javascript:;" id="twLink"><img src="media/sns_APP2.gif" alt="트위터 아이콘"></a>
+                            <a href="javascript:;" id="naLink"><img src="media/sns_APP4.gif" alt="블로그 아이콘"></a>
+                            <a href="javascript:;" id="kakaoLink"><img src="media/sns_APP7.gif" alt="카카오톡 아이콘"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cwac-menu-media">
+                    <div class="area clearfix">
+                        <p>
+                            <!-- <a href="https://www.sac.or.kr/site/main/home" class="home"><img src="media/cwac-menu_icon01.png" alt="홈으로">
+                            </a>
+                            &nbsp;&nbsp;&gt;&nbsp;&nbsp;이용·공감·참여&nbsp;&nbsp;&gt;&nbsp;&nbsp;이용안내&nbsp;&nbsp;&gt;&nbsp;&nbsp;오시는 길·주차안내
+                        </p>
+                        <a href="#n" class="sns-APP-open"><img src="media/cwac-menu_icon04.png" alt="공유"></a> -->
+                        <div class="sns-APP">
+                            <a href="javascript:;" id="fbLink"><img src="media/sns_APP1.gif" alt="페이스북 아이콘"></a>
+                            <a href="javascript:;" id="twLink"><img src="media/sns_APP2.gif" alt="트위터 아이콘"></a>
+                            <a href="javascript:;" id="naLink"><img src="media/sns_APP4.gif" alt="블로그 아이콘"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cwa-content area">
+                    <h2 class="news-title">오시는 길·주차안내</h2>
+                    <script>
+                        $(document).ready(function(){
+                            //alert($(".cwa-tab li").size());
+                            if($(".cwa-tab li").size() == 0){
+                                $(".cwa-tab").remove();
+                            }
+                        });
+                    </script>
+
+                    <ul class="cwa-tab four mgt70">
+                    </ul>
+                    <div class="back-title">
+                        <ul style="padding: 0;">
+                            <li class="add-box">
+                            <div class="text-sty3">
+                            <div class="tbk"><strong class="fth">주소 도로명</strong> <span class="ftd"> 서울시 서초구 남부순환로 2406 예술의전당 (우 06757) </span></div>
+
+                            <div class="tbk"><strong class="fth">지번</strong> <span class="ftd"> 서울시 서초구 서초동 700번지 </span></div>
+
+                            <div class="tbk mgb0 "><strong class="fth">건물명</strong> <span class="ftd"> 예술의전당(오페라하우스, 음악당, 한가람미술관,한가람디자인미술관, 서울서예박물관) </span></div>
+                            <!-- 2020-12-04 -->
+
+                            <div class="abso-btn"><a class="btn2 bg1" href="https://www.sac.or.kr/site/main/file/download/758936">전체공간맵</a> <a class="btn2 bg2" href="https://map.kakao.com/?eX=502584&amp;eY=1105411&amp;map_type=TYPE_MAP&amp;map_hybrid=false&amp;eName=%EC%98%88%EC%88%A0%EC%9D%98%EC%A0%84%EB%8B%B9&amp;ids=P21160547,P17344023" target="_blank">예술의전당 길찾기</a></div>
+                            <!-- //2020-12-04 --></div>
+                            </li>
+                        </ul>
+                        </div>
+                        <!-- * 카카오맵 - 지도퍼가기 -->
+                        <!-- 1. 지도 노드 -->
+                        <div class="img-Wall">
+                            <div class="root_daum_roughmap root_daum_roughmap_landing os_mac" id="daumRoughmapContainer1604451462434" style="width:100%">&nbsp;<div class="wrap_map" style="height: 520px;"><div class="map" style="overflow: hidden; background: url(&quot;https://t1.daumcdn.net/mapjsapi/images/2x/bg_tile.png&quot;);"><div style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; touch-action: none; cursor: url(&quot;https://t1.daumcdn.net/mapjsapi/images/2x/cursor/openhand.cur.ico&quot;) 7 5, url(&quot;https://t1.daumcdn.net/mapjsapi/images/2x/cursor/openhand.cur.ico&quot;), default;"><div style="position: absolute;"><div style="position: absolute; z-index: 0; left: 0px; top: 0px;"><img src="https://map2.daumcdn.net/map_2d_hd/2106wof/L4/982/450.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -1028px; top: 430px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 512px; height: 512px;"><img src="https://map3.daumcdn.net/map_2d_hd/2106wof/L4/982/451.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -516px; top: 430px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 512px; height: 512px;"><img src="https://map0.daumcdn.net/map_2d_hd/2106wof/L4/982/452.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -4px; top: 430px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 512px; height: 512px;"><img src="https://map1.daumcdn.net/map_2d_hd/2106wof/L4/982/453.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 508px; top: 430px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 512px; height: 512px;"><img src="https://map2.daumcdn.net/map_2d_hd/2106wof/L4/983/450.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -1028px; top: -82px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 512px; height: 512px;"><img src="https://map3.daumcdn.net/map_2d_hd/2106wof/L4/983/451.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -516px; top: -82px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 512px; height: 512px;"><img src="https://map0.daumcdn.net/map_2d_hd/2106wof/L4/983/452.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -4px; top: -82px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 512px; height: 512px;"><img src="https://map1.daumcdn.net/map_2d_hd/2106wof/L4/983/453.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 508px; top: -82px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 512px; height: 512px;"><img src="https://map2.daumcdn.net/map_2d_hd/2106wof/L4/984/450.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -1028px; top: -594px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 512px; height: 512px;"><img src="https://map3.daumcdn.net/map_2d_hd/2106wof/L4/984/451.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -516px; top: -594px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 512px; height: 512px;"><img src="https://map0.daumcdn.net/map_2d_hd/2106wof/L4/984/452.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -4px; top: -594px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 512px; height: 512px;"><img src="https://map1.daumcdn.net/map_2d_hd/2106wof/L4/984/453.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 508px; top: -594px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 512px; height: 512px;"><img src="https://map2.daumcdn.net/map_2d_hd/2106wof/L4/985/450.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -1028px; top: -1106px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 512px; height: 512px;"><img src="https://map3.daumcdn.net/map_2d_hd/2106wof/L4/985/451.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -516px; top: -1106px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 512px; height: 512px;"><img src="https://map0.daumcdn.net/map_2d_hd/2106wof/L4/985/452.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -4px; top: -1106px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 512px; height: 512px;"><img src="https://map1.daumcdn.net/map_2d_hd/2106wof/L4/985/453.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 508px; top: -1106px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 512px; height: 512px;"></div><div style="position: absolute; z-index: 1; left: 0px; top: 0px;"><img src="https://map0.daumcdn.net/map_2d_hd/2106wof/L3/1965/904.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -4px; top: 430px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map1.daumcdn.net/map_2d_hd/2106wof/L3/1965/905.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 252px; top: 430px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map2.daumcdn.net/map_2d_hd/2106wof/L3/1965/906.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 508px; top: 430px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map3.daumcdn.net/map_2d_hd/2106wof/L3/1965/907.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 764px; top: 430px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map0.daumcdn.net/map_2d_hd/2106wof/L3/1966/904.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -4px; top: 174px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map1.daumcdn.net/map_2d_hd/2106wof/L3/1966/905.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 252px; top: 174px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map2.daumcdn.net/map_2d_hd/2106wof/L3/1966/906.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 508px; top: 174px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map3.daumcdn.net/map_2d_hd/2106wof/L3/1966/907.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 764px; top: 174px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map0.daumcdn.net/map_2d_hd/2106wof/L3/1967/904.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -4px; top: -82px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map1.daumcdn.net/map_2d_hd/2106wof/L3/1967/905.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 252px; top: -82px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map2.daumcdn.net/map_2d_hd/2106wof/L3/1967/906.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 508px; top: -82px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map3.daumcdn.net/map_2d_hd/2106wof/L3/1967/907.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 764px; top: -82px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map0.daumcdn.net/map_2d_hd/2106wof/L3/1968/904.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -4px; top: -338px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map1.daumcdn.net/map_2d_hd/2106wof/L3/1968/905.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 252px; top: -338px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map2.daumcdn.net/map_2d_hd/2106wof/L3/1968/906.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 508px; top: -338px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map3.daumcdn.net/map_2d_hd/2106wof/L3/1968/907.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 764px; top: -338px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"></div><div style="position: absolute; z-index: 1;"></div><div style="position: absolute; z-index: 1; width: 706px; height: 520px;"></div><div style="position: absolute; z-index: 1;"><svg version="1.1" style="stroke: none; stroke-dashoffset: 0.5; stroke-linejoin: round; fill: none; transform: translateZ(0px); position: absolute; left: -1412px; top: -1040px; width: 3530px; height: 2600px;" viewBox="0 0 3530 2600"><defs></defs></svg></div><div style="position: absolute; z-index: 1; width: 100%; height: 0px; transform: translateZ(0px);"><div style="position: absolute; margin: -48px 0px 0px -18px; z-index: 2; left: -384px; top: 1529px; display: none;"><img draggable="false" src="//t1.daumcdn.net/localimg/localimages/07/2018/pc/map/marker_map04.png" alt="" title="" style="min-width: 0px; min-height: 0px; max-width: 99999px; max-height: none; border: 0px; display: block; position: absolute; user-select: none; -webkit-user-drag: none; clip: rect(0px, 45px, 50px, 0px); top: 0px; left: 0px; width: 45px; height: 50px;"></div></div></div></div><div style="position: absolute; cursor: default; z-index: 1; margin: 0px 6px; height: 19px; line-height: 14px; bottom: 0px; color: rgb(0, 0, 0); right: 0px;"><div style="color: rgb(0, 0, 0); text-align: center; font-size: 10px; float: right;"><div style="float: left; margin: 2px 3px 0px 4px; height: 6px; transition: width 0.1s ease 0s; border-top: none rgb(0, 0, 0); border-right: 2px solid rgb(0, 0, 0); border-bottom: 2px solid rgb(0, 0, 0); border-left: 2px solid rgb(0, 0, 0); border-image: initial; width: 46px;"></div><div style="float: left; margin: 0px 4px 0px 0px; font-family: AppleSDGothicNeo-Regular, 돋움, dotum, sans-serif; font-weight: bold; color: rgb(0, 0, 0);">50m</div></div><div style="margin: 0px 4px; float: right;"><a target="_blank" href="http://map.kakao.com/" title="Kakao 지도로 보시려면 클릭하세요." style="float: left; width: 32px; height: 10px;"><img src="https://t1.daumcdn.net/mapjsapi/images/2x/m_bi_b.png" alt="Kakao 지도로 이동" style="float: left; width: 32px; height: 10px; border: none;"></a><div style="font: 11px / 11px Arial, Tahoma, Dotum, sans-serif; float: left;"></div></div></div><div style="cursor: auto; position: absolute; z-index: 2; left: 0px; top: 0px;"></div></div><span class="map_border border1"></span><span class="map_border border2"></span><span class="map_border border3"></span><span class="map_border border4"></span><div class="wrap_btn_zoom">
+                            <button class="btn_zoom_in hide_text"><span class="img_zoom">확대</span></button><button class="btn_zoom_out hide_text"><span class="img_zoom">축소</span></button><button class="btn_zoom_reset hide_text"><span class="img_zoom">초기화</span></button></div></div><div class="wrap_controllers hide"><a class="tit_controllers" href="https://map.kakao.com" target="_blank"><img src="//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/logo_kakaomap.png" width="72" height="16" alt="카카오맵" style="display:block;width:72px;height:16px"></a><div class="wrap_btn_roadview"><a class="txt" target="_blank" href="https://map.kakao.com/?from=roughmap&amp;srcid=17344023&amp;confirmid=17344023&amp;q=%EC%98%88%EC%88%A0%EC%9D%98%EC%A0%84%EB%8B%B9&amp;rv=on">로드뷰</a><span class="txt_bar"></span><a class="txt" target="_blank" href="https://map.kakao.com/?from=roughmap&amp;eName=%EC%98%88%EC%88%A0%EC%9D%98%EC%A0%84%EB%8B%B9&amp;eX=502610.0&amp;eY=1105493.0">길찾기</a><span class="txt_bar"></span><a class="txt" target="_blank" href="https://map.kakao.com?map_type=TYPE_MAP&amp;from=roughmap&amp;srcid=17344023&amp;itemId=17344023&amp;q=%EC%98%88%EC%88%A0%EC%9D%98%EC%A0%84%EB%8B%B9&amp;urlX=502610.0&amp;urlY=1105493.0">지도 크게 보기</a></div>
+                        </div>
+                    </div>
+                    <!--
+                        2. 설치 스크립트
+                        * 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+                    --><script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script><script charset="UTF-8" src="https://t1.daumcdn.net/kakaomapweb/place/jscss/roughmap/16137cec/roughmapLander.js"></script><!-- 3. 실행 스크립트 --><script charset="UTF-8">
+                        new daum.roughmap.Lander({
+                            "timestamp" : "1604451462434",
+                            "key" : "22saz",
+                            "mapHeight" : "520"
+                        }).render();
+                    </script>
+
+                    <div class="tit-div-c1 mgt50">
+                    <p>원활한 관람을 위해서 <span class="red-color">대중교통 이용</span>을 부탁 드립니다.</p>
+                    </div>
+
+                    <DIV id=div_01>
+                        <table>
+                            <ul class="cwa-tab three mgt70">
+                                <li class="on" style="width: 25%;">
+                                    <a href="javascript:show_layer('1');" id="tab01">대중교통 이용안내</a></li>
+                                <li class="" style="width: 25%;">
+                                    <a href="javascript:show_layer('2');" id="tab02">승용차 이용안내</a></li>
+                                <li class="" style="width: 25%;">
+                                    <a href="javascript:show_layer('3');" id="tab03">공연장, 전시장 찾아가기</a></li>
+                                <li class="" style="width: 25%;">
+                                    <a href="javascript:show_layer('4');" onclick="parkingInfo();" id="tab04">실시간 주차정보</a>
+                                </li>
+                            </ul>
+
+     <div class="cwa-tab-list">
+                        <div class="ctl-sub on">
+                        <dl class="tab-list-cont  mgt50">
+                            <dt>
+                            <h3 class="sub-tit2">지하철</h3>
+                            </dt>
+                            <dd>
+                            <div class="text-Tbox bdt ">
+                            <div class="clearfix">
+                            <div class="left-T">
+                            <p class="p-tit pink-color">• 3호선</p>
+                            </div>
+
+                            <div class="right-T">
+                            <p class="p-tit pink-color">남부터미널역 5번 출구</p>
+
+                            <p class="text-s-a1"><span>1</span> 도보이동 (약 5~10분 소요)</p>
+
+                            <p class="text-s-a1"><span>2</span> 마을버스 22번(초록색)을 타고 두 정거장 이동</p>
+                            </div>
+                            </div>
+                            </div>
+
+                            <div class="text-Tbox">
+                            <div class="clearfix">
+                            <div class="left-T">
+                            <p class="p-tit green-color">• 2호선</p>
+                            </div>
+
+                            <div class="right-T">
+                            <p class="p-tit green-color">서초역 3번 출구</p>
+
+                            <p class="text-s-a1"><span>1</span> 마을버스 11번(초록색)을 타고 네 정거장 이동</p>
+
+                            <p class="text-s-a1"><span>2</span> 도보이동 (약 20~25분 소요)</p>
+                            </div>
+                            </div>
+                            </div>
+
+                            <div class="text-Tbox">
+                            <div class="clearfix">
+                            <div class="left-T">
+                            <p class="p-tit blue-color">• 4호선</p>
+                            </div>
+
+                            <div class="right-T">
+                            <p class="p-tit blue-color">사당역 1번 출구</p>
+
+                            <p class="text-s-a1"><span>1</span> 마을버스 17번(초록색)을 타고 16개 정거장 이동</p>
+                            </div>
+                            </div>
+                            </div>
+                            </dd>
+                        </dl>
+
+                        <dl class="tab-list-cont  mgt50">
+                            <dt>
+                            <h3 class="sub-tit2">버스</h3>
+                            </dt>
+                            <dd>
+                            <div class="text-Tbox bdt ">
+                            <div class="clearfix">
+                            <div class="left-T">
+                            <p class="p-tit blue-color">간선</p>
+                            </div>
+
+                            <div class="right-T">
+                            <p class="p-tit blue-color">406, 405</p>
+                            </div>
+                            </div>
+                            </div>
+
+                            <div class="text-Tbox">
+                            <div class="clearfix">
+                            <div class="left-T">
+                            <p class="p-tit green-color">지선</p>
+                            </div>
+
+                            <div class="right-T">
+                            <p class="p-tit green-color">5413</p>
+                            </div>
+                            </div>
+                            </div>
+
+                            <div class="text-Tbox">
+                            <div class="clearfix">
+                            <div class="left-T">
+                            <p class="p-tit pink-color">직행</p>
+                            </div>
+
+                            <div class="right-T">
+                            <p class="p-tit pink-color">1500-2, 1553</p>
+                            </div>
+                            </div>
+                            </div>
+
+                            <div class="text-Tbox">
+                            <div class="clearfix">
+                            <div class="left-T">
+                            <p class="p-tit green-color">마을</p>
+                            </div>
+
+                            <div class="right-T">
+                            <p class="p-tit green-color">서초11, 서초17, 서초22</p>
+                            </div>
+                            </div>
+                            </div>
+                            </dd>
+                        </dl>
+                        </div>
+</td></tr>
+
+</table>
+
+</DIV>
+
+
+
+<!---------------------------------------------------------------------------------------------------------->
+
+<DIV id=div_02 style="DISPLAY: none">
+
+<ul class="cwa-tab three mgt70">
+                        <li class="on" style="width: 25%;">
+                            <a href="javascript:show_layer('1');" id="tab01">대중교통 이용안내</a></li>
+                        <li class="" style="width: 25%;">
+                            <a href="javascript:show_layer('2');" id="tab02">승용차 이용안내</a></li>
+                        <li class="" style="width: 25%;">
+                            <a href="javascript:show_layer('3');" id="tab03">공연장, 전시장 찾아가기</a></li>
+                        <li class="" style="width: 25%;">
+                            <a href="javascript:show_layer('4');" onclick="parkingInfo();" id="tab04">실시간 주차정보</a>
+                        </li>
+                    </ul>
+
+
+<div class="ctl-sub">
+                        <div class="txt-R mgb10 "><a class="btn2 big" href="#none" id="spop-open2">주차요금 알아보기</a></div>
+
+                        <dl class="tab-list-cont  mgt50">
+                            <dt>
+                            <h3 class="sub-tit2">남부순환로</h3>
+                            </dt>
+                            <dd>
+                            <div class="text-Tbox bdt ">
+                            <div class="clearfix">
+                            <div class="left-T">
+                            <p class="p-tit">양재 방면에서 오시는 경우</p>
+                            </div>
+
+                            <div class="right-T">
+                            <p class="p-tit">경부고속도로 서초 IC 예술의전당 방향 → 남부순환로<br>
+                            사당방면으로 직진 → 예술의전당앞 교차로 좌측에<br>
+                            예술의전당</p>
+                            </div>
+                            </div>
+                            </div>
+
+                            <div class="text-Tbox">
+                            <div class="clearfix">
+                            <div class="left-T">
+                            <p class="p-tit">사당 방면에서 오시는 경우</p>
+                            </div>
+
+                            <div class="right-T">
+                            <p class="p-tit">남부순환로 양재방면으로 직진 → 예술의전당앞 교차로<br>
+                            우측에 예술의전당</p>
+                            </div>
+                            </div>
+                            </div>
+                            </dd>
+                        </dl>
+
+                        <dl class="tab-list-cont  mgt50">
+                            <dt>
+                            <h3 class="sub-tit2">올림픽대로</h3>
+                            </dt>
+                            <dd>
+                            <div class="text-Tbox bdt ">
+                            <div class="clearfix">
+                            <div class="left-T">
+                            <p class="p-tit">공항 방면에서 오시는 경우</p>
+                            </div>
+
+                            <div class="right-T">
+                            <p class="p-tit">올림픽대로 반포대교 분기점에서 고속터미널 방면으로<br>
+                            좌회전 → 곧바로 반포대교 고가차로를 타고<br>
+                            서초역 방면으로 직진 → 서초3동 사거리를 지나 우면산<br>
+                            터널 옆으로 우측 도로 진입 → 예술의전당앞 교차로 정면에<br>
+                            예술의전당</p>
+                            </div>
+                            </div>
+                            </div>
+
+                            <div class="text-Tbox">
+                            <div class="clearfix">
+                            <div class="left-T">
+                            <p class="p-tit">잠실 방면에서 오시는 경우</p>
+                            </div>
+
+                            <div class="right-T">
+                            <p class="p-tit">올림픽대로 한남대교 분기점에서 한남IC 진입 → 곧이어<br>
+                            한남IC 부산방향으로 경부고속도로 진입 → 서초IC<br>
+                            예술의전당 방향으로 나와 사당방면으로 직진 → 예술의전당<br>
+                            앞 교차로 좌측에 예술의전당</p>
+                            </div>
+                            </div>
+                            </div>
+                            </dd>
+                        </dl>
+                        </div>
+ </td></tr>
+
+</table>
+
+</DIV>
+
+
+
+<!----------------------------------------------------------------------------------------------->
+
+<DIV id=div_03 style="DISPLAY: none">
+
+
+<ul class="cwa-tab three mgt70">
+                        <li class="on" style="width: 25%;">
+                            <a href="javascript:show_layer('1');" id="tab01">대중교통 이용안내</a></li>
+                        <li class="" style="width: 25%;">
+                            <a href="javascript:show_layer('2');" id="tab02">승용차 이용안내</a></li>
+                        <li class="" style="width: 25%;">
+                            <a href="javascript:show_layer('3');" id="tab03">공연장, 전시장 찾아가기</a></li>
+                        <li class="" style="width: 25%;">
+                            <a href="javascript:show_layer('4');" onclick="parkingInfo();" id="tab04">실시간 주차정보</a>
+                        </li>
+                    </ul>
+
+
+                <div class="ctl-sub"><!--0717-->
+                        <dl class="tab-list-cont">
+                            <dt>
+                            <h3 class="sub-tit2">비타민스테이션<br>
+                            안내도</h3>
+                            </dt>
+                            <dd>
+                            <div class="seqPage-title-img">
+                            <div class="tit-div-c2">
+                            <p>오페라하우스 비타민스테이션 로비에서<br>
+                            <span class="red-color">공연장, 전시장</span> 찾아가기</p>
+                            </div>
+
+                            <div><img alt src="media/t_sub_img08.gif"></div>
+                            </div>
+                            </dd>
+                        </dl>
+
+                        <dl class="tab-list-cont">
+                            <dt>
+                            <h3 class="sub-tit2">사전정산기<br>
+                            설치장소</h3>
+                            </dt>
+                            <dd>
+                            <div class="seqPage-title-img clearfix ">
+                            <div class="left-p">
+                            <div class="tit-div-c2">
+                            <p><span class="red-color">신속한 출차를 위해</span><br>
+                            <span class="f02">각 공간에 비치된 사전 정산기를 이용하여<br>
+                            미리 주차요금을 정산하여 주시기를 바랍니다.</span></p>
+                            </div>
+
+                            <p class="titC2">설치장소</p>
+
+                            <ul class="txtC-style01">
+                                <li>• 오페라하우스 1층, 2층, 3층</li>
+                                <li>• 음악당 지층, 1층</li>
+                                <li>• 한가람미술관 1층, 한가람디자인미술관 1층,<br>
+                                한가람미술관 광장(통로)</li>
+                                <li>• 비타민스테이션</li>
+                            </ul>
+                            </div>
+
+                            <div class="right-p"><img alt src="media/t_sub_img09.gif">
+                            </div>
+                        </div>
+                    </dd>
+                </dl>
+            </div>
+</td></tr>
+
+</table>
+
+</DIV>
+
+<DIV id=div_04 style="DISPLAY: none">
+
+<ul class="cwa-tab three mgt70">
+                        <li class="on" style="width: 25%;">
+                            <a href="javascript:show_layer('1');" id="tab01">대중교통 이용안내</a></li>
+                        <li class="" style="width: 25%;">
+                            <a href="javascript:show_layer('2');" id="tab02">승용차 이용안내</a></li>
+                        <li class="" style="width: 25%;">
+                            <a href="javascript:show_layer('3');" id="tab03">공연장, 전시장 찾아가기</a></li>
+                        <li class="" style="width: 25%;">
+                            <a href="javascript:show_layer('4');" onclick="parkingInfo();" id="tab04">실시간 주차정보</a>
+                        </li>
+                    </ul>
+
+<div class="ctl-sub on">
+<dl class="tab-list-cont">
+    <dt>
+        <h3 class="sub-tit2">실시간주차<br>가능대수<br></h3>
+    </dt>
+    <dd>
+        <div class="acad-table table-all no-left mgt10">
+            <table>
+                <caption>실시간주차가능대수</caption>
+                <colgroup>
+                    <col style="width: 50%">
+                    <col style="width: 50%">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th scope="col">음악당주차장 총 611대</th>
+                        <th scope="col">오페라주차장 총 699대</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="red-color" style="font-size: 22px;" id="parkingCntM">413</span></td>
+                        <td><span class="red-color" style="font-size: 22px;" id="parkingCntO">191</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </dd>
+</dl>
+
+<dl class="tab-list-cont">
+    <dt>
+        <h3 class="sub-tit2">주차장<br>이용안내</h3>
+    </dt>
+    <dd>
+        <p class="f-g2 mgb0"><span class="red-color">*</span> 공연 · 전시 시설과 가까운 주차장을 이용하세요</p>
+        <div class="text-Tbox bdt mgt20">
+            <div class="clearfix">
+                <div class="left-T">
+                    <p class="p-tit">음악당 주차장</p>
+                </div>
+
+                <div class="right-T">
+                    <p class="p-tit">콘서트홀, IBK챔버홀, 리사이틀홀, 인춘아트홀 서울서예박물관, 세계음악분수 이용고객</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-Tbox">
+            <div class="clearfix">
+                <div class="left-T">
+                    <p class="p-tit">오페라 주차장</p>
+                </div>
+
+                <div class="right-T">
+                    <p class="p-tit">오페라극장, 토월극장, 자유소극장, 서비스플라자, 한가람미술관, 한가람디자인미술관, 미술아카데미 이용고객</p>
+                </div>
+            </div>
+        </div>
+    </dd>
+</dl>
+
+</div>
+
+</td></tr>
+
+</table>
+
+</DIV>
+
+</div>
+</table>
+</DIV>
+</div>
+</div>
+</div>
+</li>
+</div>
+</li>
+
+
+<div id ="footer">
+   <div class="gochat-talk"><a class="gochat" href="#n" onclick="loginChatbot();"><span class="hidden"></span></a></div>
+
+   <div class="gotop-talk"><a class="go-top" href="#n"><span class="hidden"></span></a></div>
+
+   <div class="footer-floor1">
+            <div class="width-box clearfix">
+                <div class="link-box">
+                    <a href="/site/main/sitemap/sitemap">사이트맵</a>
+                    <a href="/site/main/welcome/welcome">오시는 길·주차안내</a>
+                    <a href="/site/main/content/informationOpenGuide">정보공개</a>
+                    <a href="/site/main/content/memAgreement">이용약관·정책</a>
+                    <a href="/site/main/content/infomst">개인정보처리방침</a>
+               <!-- <a href="https://www.mcst.go.kr/" target="_blank"><img src="media/nbns1_1.gif" alt="문화체육관광부 로고" style="width:100px;"></a> -->
+                </div>
+
+                <div class="link-box2">
+                    <a href="https://www.facebook.com/SeoulArtsCenter.Korea" target="_blank"><img src="media/footer-icon01.gif" alt="페이스북 아이콘"></a>
+                    <a href="https://twitter.com/I_Love_SAC" target="_blank"><img src="media/footer-icon02.gif" alt="트위터 아이콘"></a>
+                    <a href="https://www.instagram.com/seoul_arts_center" target="_blank"><img src="media/footer-icon03.gif" alt="인스타그램 아이콘"></a>
+                    <a href="https://blog.naver.com/i_love_sac" target="_blank"><img src="media/footer-icon04.gif" alt="블로그 아이콘"></a>
+                    <a href="https://m.post.naver.com/i_love_sac?memberNo=33166497" target="_blank"><img src="media/footer-icon05.gif" alt="네이버포스트 아이콘"></a>
+                    <a href="https://tv.naver.com/seoulartscenter" target="_blank"><img src="media/footer-icon06.gif" alt="네이버티비 아이콘"></a>
+                    <a href="https://www.youtube.com/channel/UCUn8h6aG6rCM1zvXKIuNpVQ" target="_blank"><img src="media/footer-icon07.gif" alt="유튜브 아이콘"></a>
+                    <a href="http://www.podbbang.com/ch/5932" target="_blank"><img src="media/footer-icon08.gif" alt="팟캐스트 아이콘"></a>
+                </div>
+            </div> 
+      </div>
+   <div class="footer-floor2">
+            <div class="width-box">
+                <div class="logo">
+                    <a href=""><img src="media/footer-logo-img01.gif" alt=""></a>
+                    <!-- <a href="#n" class="m-no"><img src="/design/theme/sac/images/footer-logo-img01.gif" alt=""></a> -->
+                </div>
+                <div class="txt-box txt-box1">
+                    <p class="m-no">(우) 06757 서울시 서초구 남부순환로 2406 예술의전당</p>
+                    <p class="copyright">copyrightⓒ2020 Seoul Arts Center. All rights Reserved.</p>
+                </div>
+                <div class="txt-box txt-box2 m-no">
+                    <p><b>대표자</b>유인택</p>
+                    <p><b>사업자등록번호</b>214-82-00264</p>
+                    <p><b>통신판매업신고</b>서초 제 0706호</p>
+                </div>
+                <div class="txt-box txt-box3 m-no">
+                    <p><b>고객센터</b></p> 
+                    <p>02-580-1300 (월:09:00~18:00/화-일:09:00~20:00<!-- AM 09:00 - PM 08:00 -->)</p>
+                    <!-- <p><b>메일</b>webmaster@sac.or.kr</p> -->
+                </div>
+             </div>
+         </div>
+     </body>
+</html>
