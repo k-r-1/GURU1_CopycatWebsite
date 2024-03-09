@@ -5,7 +5,7 @@
 - 예술의 전당 웹사이트를 본 따 만든 Copycat 프로젝트를 진행하였습니다. 이 프로젝트는 HTML, CSS, JavaScript를 활용하여 구현되었습니다. 이 과정을 통해 웹사이트가 실제로 어떻게 개발되고, 화면에 어떻게 표시되는지에 대한 기본적인 이해를 높일 수 있었습니다.
 
 ### 구현 기능 
-🔗 [YouTube 발표 영상](https://www.youtube.com/watch?v=HaQWTJ8doLo)
+🔗 [프로젝트 작동 동영상](https://www.youtube.com/watch?v=HaQWTJ8doLo)
 
 ## 배운 점 & 아쉬운 점
 - HTML과 CSS에 대한 기초적인 교육을 받고, 이를 실제로 적용해 볼 수 있는 기회였음.
